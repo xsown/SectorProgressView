@@ -1,8 +1,8 @@
 # SectorProgressView
----
+
 
 ## Useage
----
+
 Use SectorProgressView in Storyboard/xib or create an instance from code:
 
 ```
@@ -14,7 +14,7 @@ progressView.setProgress(1.0, animated:true)
 ```
 
 ## License
----
+
 The MIT License (MIT)
 
 Copyright © 2015 Shi Xu. All rights reserved.
