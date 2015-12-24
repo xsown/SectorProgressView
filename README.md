@@ -1,5 +1,6 @@
 # SectorProgressView
 
+<img src="https://cloud.githubusercontent.com/assets/2233158/11992145/31074214-aa5d-11e5-9aab-3d52bff451fe.gif" width="402" height="708" />
 
 ## Useage
 
