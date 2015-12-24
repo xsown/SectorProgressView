@@ -1,3 +1,5 @@
 .Build/
 
 *.xcuserstate
+
+*.xcbkptlist

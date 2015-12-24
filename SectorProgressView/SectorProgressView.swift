@@ -33,7 +33,11 @@ class SectorProgressView: UIView {
         if animated {
             startProgress = self.progress
             endProgress = progress
+            print("start:\(startProgress), end:\(endProgress)")
             animationStopTime = animationDuration * abs(endProgress - startProgress)
+            if let displayLink =  self.displayLink {
+                displayLink.invalidate()
+            }
             let displayLink = CADisplayLink(target: self, selector: "updateProgress")
             startTimestamp = CACurrentMediaTime()
             displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSDefaultRunLoopMode)
@@ -87,7 +91,7 @@ class SectorProgressView: UIView {
         CGContextAddPath(context, createFanPath())
         CGContextEOFillPath(context)
         if let displayLink = self.displayLink {
-            if timeProgress > animationStopTime {
+            if timeProgress >= animationStopTime {
                 displayLink.invalidate()
                 self.displayLink = nil
             }
