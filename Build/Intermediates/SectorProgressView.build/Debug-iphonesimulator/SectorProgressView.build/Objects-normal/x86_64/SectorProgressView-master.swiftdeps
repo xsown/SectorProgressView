@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "0f3b8d17781e16f63ec5c06f9bc1db82"
+build_time: [504257507, 34393000]
+inputs:
+  "/Users/xsown/iOS_Projects/SectorProgressView/SectorProgressView/SectorProgressView.swift": [504256008, 0]
+  "/Users/xsown/iOS_Projects/SectorProgressView/SectorProgressView/ViewController.swift": [504256139, 0]
+  "/Users/xsown/iOS_Projects/SectorProgressView/SectorProgressView/AppDelegate.swift": [504256127, 0]
