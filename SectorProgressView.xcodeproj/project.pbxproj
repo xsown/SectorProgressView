@@ -11,7 +11,6 @@
 		B62372381C2BD2D60031B819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62372361C2BD2D60031B819 /* Main.storyboard */; };
 		B68FE27F1C2BD1FA00F8763F /* SectorProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FE27E1C2BD1FA00F8763F /* SectorProgressView.swift */; };
 		B68FE28B1C2BD20200F8763F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FE2851C2BD20200F8763F /* AppDelegate.swift */; };
-		B68FE28C1C2BD20200F8763F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B68FE2861C2BD20200F8763F /* Info.plist */; };
 		B68FE28D1C2BD20200F8763F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FE2871C2BD20200F8763F /* ViewController.swift */; };
 		B68FE28E1C2BD20200F8763F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FE2881C2BD20200F8763F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -129,7 +128,6 @@
 			files = (
 				B62372381C2BD2D60031B819 /* Main.storyboard in Resources */,
 				B62372371C2BD2D60031B819 /* LaunchScreen.storyboard in Resources */,
-				B68FE28C1C2BD20200F8763F /* Info.plist in Resources */,
 				B68FE28E1C2BD20200F8763F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
