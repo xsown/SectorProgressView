@@ -4,14 +4,21 @@
 
 ## Useage
 
-Use SectorProgressView in Storyboard/xib or create an instance from code:
+Use SectorProgressView in storyboard/xib or create an instance from code:
 
 ```
 let progressView = SectorProgressView(frame:CGRectMake(0, 0, 100, 100))
-
 progressView.progress = 0.5
-
 progressView.setProgress(1.0, animated:true)
+```
+
+options to set:
+
+```
+progressView.fillColor = UIColor(red: 0.0, green: 0, blue: 0, alpha: 0.8)
+progressView.circleBorderWidth = 4.0
+progressView.radius = 20.0
+progressView.animationDuration = 1.0
 ```
 
 ## License
